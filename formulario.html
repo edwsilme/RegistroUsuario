@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Tercer Parcial</title>
+    <script src="formulario.js"></script>
+</head>
+
+<body>
+    <form action="" onsubmit="return validarFormulario()">
+        <div> 
+            <label for="usuario">
+                <strong>Usuario</strong></label> <br>
+            <input type="text" id="usuario" class="campos"  onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px"> 
+        </div>
+
+        <div> 
+            <label for="nombre">
+                <strong>Nombre del usuario</strong></label> <br> 
+            <input type="text" id="nombre" class="campos" onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px">
+        </div>
+
+        <div> 
+            <label for="correo">
+                <strong>Correo</strong></label> <br> 
+            <input type="text" id="correo" class="campos" onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px"> 
+        </div>
+
+        <div> 
+            <label for="celular">
+                <strong>Celular</strong></label> <br> 
+            <input type="text" id="celular" class="campos" onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px"> 
+        </div>
+
+        <div> 
+            <label for="passwd"><strong>Contraseña</strong></label> <br> 
+            <input type="passwd" id="passwd" class="campos" onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px"> 
+        </div>
+
+        <div> <label for="passwd2"><strong>Confirmar Contraseña</strong></label> <br>
+              <input type="passwd2" id="passwd2" class="campos" onfocus="pintarAzul(this)" onblur="pintarNegro(this)" size="40px"> 
+          </div>
+
+        <div> 
+		     <input type="checkBox" id="checkBox" class="boton"><strong>Aceptar las condiciones</strong> 
+		</div>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
